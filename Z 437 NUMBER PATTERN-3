@@ -1,0 +1,6 @@
+t=int(input())
+var=""
+for i in range(t):
+    var=(t-i-1)*" "+var+str(i+1);
+    print(var)
+    var=var.lstrip(" ")
