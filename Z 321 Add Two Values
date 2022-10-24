@@ -1,0 +1,6 @@
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+n,m=map(float,input().split())
+if(n+m)>(int(n)+int(m)):
+    print(n+m)
+else:
+    print(int(n+m))
