@@ -1,0 +1,8 @@
+t=int(input())
+n=t//2+1
+for i in range(n):
+    if i<n-1:
+        var=i*" "+str(i+1)+(t-2*(i+1))*" " +str(t-i)
+    else:
+        var=i*" "+str(i+1)
+    print(var)
