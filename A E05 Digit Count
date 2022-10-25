@@ -1,0 +1,3 @@
+t=int(input())
+res=[int(i) for i in str(t)]
+print(len(res))
